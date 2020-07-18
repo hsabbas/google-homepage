@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin: 20px 22px 0 17px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.leftlink {
+    float: left;
+}
+
+.rightlink{
+    float: right;
+}
+
+li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+
+#store {
+    padding-left: 15px;
+}
+
+#images{
+    margin-left: 15px;
+}
+
+#appsmenu {
+    background-image: url(i1_1967ca6a.png);
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+
+#signin {
+    color:white;
+    font-weight: bold;
+    padding: 0 12px;
+    background: #4387fd;
+    line-height: 28px;
+    margin-left: 15px;
+}
+
+#logo {
+    
+}
