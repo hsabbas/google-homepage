@@ -3,17 +3,32 @@ body {
 }
 
 ul {
-    margin: 20px 22px 0 17px;
     padding: 0;
+    margin: 0;
     list-style-type: none;
 }
 
-.leftlink {
+#navbar {
+    padding: 0;
+    margin: 0;
+    display: block;
+    height: 34px;
+}
+
+.left {
     float: left;
 }
 
-.rightlink{
+.right {
     float: right;
+}
+
+.leftnav {
+    margin-top: 12px;
+}
+
+.rightnav{
+    margin-top: 10px;
 }
 
 li a {
@@ -23,12 +38,17 @@ li a {
     display: inline-block;
 }
 
-#store {
-    padding-left: 15px;
+#about {
+    padding: 0 15px 0 17px;
 }
 
 #images{
-    margin-left: 15px;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+#gmail {
+    padding-top: 7px;
 }
 
 #appsmenu {
@@ -46,9 +66,57 @@ li a {
     padding: 0 12px;
     background: #4387fd;
     line-height: 28px;
-    margin-left: 15px;
+    margin: 0 20px 0 15px;
+    border-radius: 2px;
 }
 
 #logo {
-    
+    display: block;
+    margin: 115px auto 26px auto;
+}
+
+#searchbar {
+    display: block;
+    width: 41%;
+    font-size: 15px;
+    padding: 11px 18px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 15%);
+    background-color: white;
+    margin: 0 auto 26px auto;
+}
+
+#searchbuttondiv {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbuttons {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 60%);
+    background-color: rgba(200, 200, 200, 20%);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin:0 5px;
+}
+
+footer {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(200, 200, 200, 20%);
+    border-top: 1px solid rgba(0, 0, 0, 7%);
+}
+
+footer a {
+    text-align: center;
+    font-size: 14px;
+    color:rgba(0, 0, 0, 60%);
+    padding: 12px 13px;
 }
